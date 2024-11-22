@@ -1,0 +1,14 @@
+{
+  "event": {
+    "display": "display.jpeg",
+    "heading": "Landmark",
+    "title": "Movie Night at The Lounge\uD83C\uDFAC",
+    "description": "\uD83D\uDCE2Join us for an exciting Movie Night! Relax with friends, enjoy popcorn, and watch a blockbuster hit on the big screen. Don’t miss out!",
+    "dateTime": "25 Nov 2024, 7:00 PM",
+    "venue": "The Common Room, Building G",
+    "responseDeadline": "20 Nov 2024",
+    "paymentDeadline": "22 Nov 2024",
+    "price": 150,
+    "payNowLabel": "Pay Now"
+  }
+}
