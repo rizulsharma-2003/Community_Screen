@@ -1,8 +1,7 @@
+import 'package:community_page/Constants/app_theme.dart';
+import 'package:community_page/Screens/Community_Screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
-import 'Screens/testing.dart';
-import 'package:community_page/Community_Screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,7 +22,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
+        colorScheme: AppThemeData.lightColorScheme,
         useMaterial3: true,
       ),
       home: CommunityScreen(),
